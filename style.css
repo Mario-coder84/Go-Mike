@@ -346,6 +346,7 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    margin-bottom: 20px;
 }
 
 .navbar-toggle:hover {
@@ -945,9 +946,11 @@ h4 {
         padding-left: 15px;
         width: 100%;
         text-decoration: none !important;
+        margin-bottom: 10px;
+        font-size: 20px;
     }
     .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
+        background: #FFFFFF
     }
     .dropdown .dropdown a .caret {
         float: none;
