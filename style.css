@@ -521,8 +521,17 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 13px;
+    padding-top: 10px;
+    border-radius: 10px;
 }
-
+#message {
+    width: 70%;
+    height: 90px;
+    margin-top: 20px;
+}
 .scrollToTop {
     width: 40px;
     height: 40px;
