@@ -20,7 +20,7 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+    
 
     
 <!-- Analytics -->
@@ -81,11 +81,11 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate >
 					<div class="form-group">
 						<label>
 							Name
-							<input id="name" type="name" class="form-control" required />
+							<input id="name" type="text" class="form-control"/>
 						</label>
 						
 					</div>
@@ -106,7 +106,7 @@
 					<div class="form-group">
 						<label>
 							Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
-						    <textarea id="message" type="text" class="form-control" rows="4" cols="50" required></textarea>
+						    <textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 						</label>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
